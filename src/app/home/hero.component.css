@@ -7,7 +7,7 @@
     
 }
 
-.hero-container p{
+p{
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
@@ -31,7 +31,7 @@ h2{
 
 
 .pre-header{
-    color:  #2D9CDB;;
+    color:  #2D9CDB;
     margin-bottom: 0;
     font-weight: 500;
 }
@@ -51,8 +51,83 @@ img{
     border: 1px solid transparent;
     border-radius: 12px;
 }
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    font-size: 15px;
+    font-style: normal;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button{
+    background-color: #2D9CDB;
+    color: white;
+    border: 1px solid #2D9CDB;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
 @media only screen and (min-width: 600px){
 
+    .hero-container{
+        margin-top: 70px;
+    }
 
+    p, h2, form{
+        margin-left: 300px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 27px;
+        max-width: 370px;
+    }
+
+    h2{
+        font-size: 48px;
+        line-height: 72px;
+    }
+
+    .top-header{
+        margin-bottom: 25px;
+        max-width: 550px;
+    }
+    
+    .lower-header{
+        
+        margin-top: 25px;
+        margin-bottom: 25px;
+        max-width: 400px;
+    }
+
+
+    form{
+        margin-top: 35px;
+    }
+
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input{
+        padding: 13px;
+    }
+    
+    button{
+        padding: 13px;
+    }
+    
 
 }

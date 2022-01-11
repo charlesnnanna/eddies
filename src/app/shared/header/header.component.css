@@ -1,4 +1,9 @@
 
+#logo{
+    font-family: 'Vujahday Script', cursive;
+    font-size: 40px;
+}
+
 .lg-nav{
     display: none;
 }
@@ -16,10 +21,7 @@
     .sc-nav{
         display: none;
     }
-    #logo{
-        font-family: 'Vujahday Script', cursive;
-        font-size: 40px;
-    }
+    
     
     .lg-nav ul li{
         margin-right: 40px;
